@@ -17,7 +17,7 @@ This report responds to the Week 1 Practical Laboratory brief, acting as newly a
 - **Task 4 — Security Steering Committee**: Terms of Reference, a sample first-meeting agenda, and a briefing note to the CEO.
 - **Task 5 — Governance Maturity Assessment**: current-state maturity ratings across six domains and a 12–18 month roadmap of priority initiatives.
 
-📄 [`GRC102_W1_Lab_StudentName_RegistrationNumber.pdf`](./GRC102_W1_Lab_StudentName_RegistrationNumber.pdf)
+📄 [`GRC102_W1_Lab_DianaWanjiru_C11-26-CGRCE-17188.pdf`](./GRC102_W1_Lab_DianaWanjiru_C11-26-CGRCE-17188.pdf)
 
 ## Notes
 
