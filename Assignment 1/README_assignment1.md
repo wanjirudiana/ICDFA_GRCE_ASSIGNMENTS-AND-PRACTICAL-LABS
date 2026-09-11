@@ -15,7 +15,7 @@ This assignment applies core information security governance concepts across fou
 - **Part 3 — Case Study Analysis: Equifax Data Breach**: five governance failures behind the breach, a preventive governance structure from a CISO's perspective, and wider lessons for regulation, Board oversight and executive accountability.
 - **Part 4 — Governance Principles Application (GlobalFinance)**: eight governance principles for a decentralised multinational financial-services organisation, how they balance competing organisational needs, and a mechanism for maintaining adherence.
 
-📄 [GRC102_Assignment1_DianaWanjiru_C11-26-CGRCE-17188.docx](./GRC102_Assignment1_DianaWanjiru_C11-26-CGRCE-17188.docx)
+📄 [GRC102_Assignment1_DianaWanjiru_C11-26-CGRCE-17188.pdf](./GRC102_Assignment1_DianaWanjiru_C11-26-CGRCE-17188.pdf)
 
 ## Notes
 
