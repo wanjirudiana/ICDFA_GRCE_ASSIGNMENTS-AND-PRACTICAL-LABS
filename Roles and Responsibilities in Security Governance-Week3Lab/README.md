@@ -10,8 +10,8 @@ Module: Security Governance - Week 3 Practical Laboratory
 |---|---|
 | `TechGlobal_Security_Governance_Consultant_Report.docx` | The full consultant report (Word) - primary deliverable. |
 | `README.md` | This file - full content of the report, formatted for GitHub. |
-| `charts/fig1_governance_structure.png` | Five-tier governance operating model diagram. |
-| `charts/fig2_escalation_workflow.png` | Five-stage major cyber-risk escalation workflow diagram. |
+| `fig1_governance_structure.png` | Five-tier governance operating model diagram. |
+| `fig2_escalation_workflow.png` | Five-stage major cyber-risk escalation workflow diagram. |
 
 ---
 
@@ -137,7 +137,7 @@ feeding local context upward and receiving standards downward. This is deliberat
 five-tier structure rather than a deep hierarchy - appropriate for a 2,500-person organisation,
 where an over-engineered model would simply be ignored in practice.
 
-![Figure 1. TechGlobal target security governance operating model](charts/fig1_governance_structure.png)
+![Figure 1. TechGlobal target security governance operating model](fig1_governance_structure.png)
 
 *Figure 1. TechGlobal target security governance operating model - Board to business-unit liaisons.*
 
@@ -223,7 +223,7 @@ advance, the numeric and categorical triggers that move an incident from operati
 through to Board escalation - so the same category of incident is handled consistently regardless
 of which office it originates in or who first detects it.
 
-![Figure 2. TechGlobal major cyber-risk escalation workflow](charts/fig2_escalation_workflow.png)
+![Figure 2. TechGlobal major cyber-risk escalation workflow](fig2_escalation_workflow.png)
 
 *Figure 2. TechGlobal major cyber-risk escalation workflow, Detection through Board escalation.*
 
