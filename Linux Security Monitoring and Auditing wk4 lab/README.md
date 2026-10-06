@@ -4,7 +4,7 @@
 
 Course: GRC102 - Information Security Governance (Week 4 Practical Laboratory)
 Institution: International Cybersecurity and Digital Forensics Academy
-Author: [Your Name]
+Author: Diana Wanjiru
 Date: 05 October 2026
 
 ---
@@ -67,49 +67,49 @@ All activity was done only inside the assigned VM. No external systems were targ
 
 ### auditd service and rules
 
-![auditd status](screenshots/01_auditd_status.png)
+![auditd status](01_auditd_status.png)
 
-![Loaded audit rules](screenshots/02_audit_rules.png)
+![Loaded audit rules](02_audit_rules.png)
 
 ### Audit events
 
 The `passwd_changes` key recorded two read-only accesses to `/etc/passwd` by `sudo` for user `cybergirlie` (auid 1000) at 20:14:31 EAT.
 
-![ausearch passwd_changes](screenshots/03_ausearch_passwd.png)
+![ausearch passwd_changes](03_ausearch_passwd.png)
 
-![ausearch program_execution](screenshots/04_ausearch_execve.png)
+![ausearch program_execution](04_ausearch_execve.png)
 
 The `auth_failures` key returned only the rule-load record, because the watched file does not exist.
 
-![ausearch auth_failures](screenshots/05_ausearch_auth.png)
+![ausearch auth_failures](05_ausearch_auth.png)
 
 ### Audit summary reports
 
-![aureport summary](screenshots/06_aureport_summary.png)
+![aureport summary](06_aureport_summary.png)
 
-![aureport failed](screenshots/07_aureport_failed.png)
+![aureport failed](07_aureport_failed.png)
 
-![aureport login](screenshots/08_aureport_login.png)
+![aureport login](08_aureport_login.png)
 
 ### Log analysis
 
-![journalctl follow](screenshots/09_journalctl_follow.png)
+![journalctl follow](09_journalctl_follow.png)
 
-![sudo events in the journal](screenshots/10_sudo_events.png)
+![sudo events in the journal](10_sudo_events.png)
 
-![Authentication search](screenshots/11_auth_search.png)
+![Authentication search](11_auth_search.png)
 
-![Current boot journal](screenshots/12_journal_boot.png)
+![Current boot journal](12_journal_boot.png)
 
-![Journal errors](screenshots/13_journal_errors.png)
+![Journal errors](13_journal_errors.png)
 
-![Journal warnings](screenshots/14_journal_warnings.png)
+![Journal warnings](14_journal_warnings.png)
 
 ### Lynis assessment
 
-![Lynis version](screenshots/15_lynis_version.png)
+![Lynis version](15_lynis_version.png)
 
-![Lynis summary](screenshots/16_lynis_summary.png)
+![Lynis summary](16_lynis_summary.png)
 
 ## Governance mapping
 
