@@ -37,6 +37,7 @@ All activity was done only inside the assigned VM. No external systems were targ
 3. **Lynis assessment:** run a system audit and interpret the hardening index and component results.
 4. **SIEM and automation (conceptual):** map host evidence to enterprise monitoring and decide what is an operational alert and what is a governance issue.
 5. **Governance task:** build a control-monitoring table with owners, thresholds, remediation and retest plans.
+6. For the full report that includes the tables as well check the GRC102_W4_Lab_Report.docx that i have uploaded in this Lab folder.
 
 ## Key results
 
@@ -159,9 +160,8 @@ These are my suggested thresholds for management approval, not existing policy.
 ```
 .
 |-- README.md
-|-- docs/
-|   `-- GRC102_W4_Lab_Report.docx   (full audit report)
-`-- screenshots/                    (evidence images used above)
+|-- GRC102_W4_Lab_Report.docx   (full audit report)
+|-- screenshots(01-16)                    (evidence images used above)
 ```
 
 ## Skills demonstrated
