@@ -68,49 +68,49 @@ All activity was done only inside the assigned VM. No external systems were targ
 
 ### auditd service and rules
 
-![auditd status](01_auditd_status.png)
+![auditd status](Screenshots/01_auditd_status.png)
 
-![Loaded audit rules](02_audit_rules.png)
+![Loaded audit rules](Screenshots/02_audit_rules.png)
 
 ### Audit events
 
 The `passwd_changes` key recorded two read-only accesses to `/etc/passwd` by `sudo` for user `cybergirlie` (auid 1000) at 20:14:31 EAT.
 
-![ausearch passwd_changes](03_ausearch_passwd.png)
+![ausearch passwd_changes](Screenshots/03_ausearch_passwd.png)
 
-![ausearch program_execution](04_ausearch_execve.png)
+![ausearch program_execution](Screenshots/04_ausearch_execve.png)
 
 The `auth_failures` key returned only the rule-load record, because the watched file does not exist.
 
-![ausearch auth_failures](05_ausearch_auth.png)
+![ausearch auth_failures](Screenshots/05_ausearch_auth.png)
 
 ### Audit summary reports
 
-![aureport summary](06_aureport_summary.png)
+![aureport summary](Screenshots/06_aureport_summary.png)
 
-![aureport failed](07_aureport_failed.png)
+![aureport failed](Screenshots/07_aureport_failed.png)
 
-![aureport login](08_aureport_login.png)
+![aureport login](Screenshots/08_aureport_login.png)
 
 ### Log analysis
 
-![journalctl follow](09_journalctl_follow.png)
+![journalctl follow](Screenshots/09_journalctl_follow.png)
 
-![sudo events in the journal](10_sudo_events.png)
+![sudo events in the journal](Screenshots/10_sudo_events.png)
 
-![Authentication search](11_auth_search.png)
+![Authentication search](Screenshots/11_auth_search.png)
 
-![Current boot journal](12_journal_boot.png)
+![Current boot journal](Screenshots/12_journal_boot.png)
 
-![Journal errors](13_journal_errors.png)
+![Journal errors](Screenshots/13_journal_errors.png)
 
-![Journal warnings](14_journal_warnings.png)
+![Journal warnings](Screenshots/14_journal_warnings.png)
 
 ### Lynis assessment
 
-![Lynis version](15_lynis_version.png)
+![Lynis version](Screenshots/15_lynis_version.png)
 
-![Lynis summary](16_lynis_summary.png)
+![Lynis summary](Screenshots/16_lynis_summary.png)
 
 ## Governance mapping
 
