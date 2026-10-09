@@ -80,7 +80,7 @@ The full evidence report (`report/GRC102_Lab8_Evidence_Report_Diana_Wanjiru.docx
 │
 ├── evidence/                              # Labelled screenshots referenced in the PDF report (Fig1.1–Fig4.7e)
 └── report/
-    └── GRC102_Lab8_Evidence_Report_Diana_Wanjiru.docx
+    └── GRC102_Lab8_Evidence_Report_Diana_Wanjiru.pdf
 ```
 
 ---
@@ -138,7 +138,7 @@ If `patch_status.json` does not contain `"struts_patched": true` or `"network_se
 | Part 2 evidence | `simulate_attack.py` output, `governance_failure_report_*.json`, `equifax_comparison.md`, `evidence/Fig2_*` |
 | Part 3 evidence | `implement_governance_controls.py`, `patch_status.json`, post-control scans, `evidence/Fig3_*` |
 | Part 4 evidence | `governance_metrics.py` outputs, `metrics_visualizations/`, `evidence/Fig4_*` |
-| Associated PDF report | `report/GRC102_Lab8_Evidence_Report_Diana_Wanjiru.docx` (export to PDF before submission) |
+| Associated PDF report | `report/GRC102_Lab8_Evidence_Report_Diana_Wanjiru.pdf` |
 
 ---
 
