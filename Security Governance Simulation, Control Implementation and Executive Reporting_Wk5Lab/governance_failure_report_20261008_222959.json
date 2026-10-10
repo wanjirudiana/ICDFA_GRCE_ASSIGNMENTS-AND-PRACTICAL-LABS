@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-10-08T22:29:59.818962",
+  "failures": [
+    {
+      "category": "Policy Implementation",
+      "description": "Patch Management Policy not effectively implemented",
+      "impact": "Critical vulnerabilities remain unpatched despite policy",
+      "recommendation": "Improve patch management process and oversight"
+    },
+    {
+      "category": "Metrics and Measurement",
+      "description": "Security metrics not driving effective remediation",
+      "impact": "Metrics not leading to security improvements",
+      "recommendation": "Implement actionable metrics with clear ownership and accountability"
+    },
+    {
+      "category": "Security Architecture",
+      "description": "Insufficient network segmentation",
+      "impact": "Potential for lateral movement and expanded compromise",
+      "recommendation": "Implement network segmentation according to least privilege principle"
+    },
+    {
+      "category": "Authentication and Access Control",
+      "description": "Weak database authentication",
+      "impact": "Potential for unauthorized database access",
+      "recommendation": "Implement strong authentication and access controls for databases"
+    }
+  ],
+  "summary": {
+    "total_failures": 4,
+    "categories": {
+      "Policy Implementation": 1,
+      "Metrics and Measurement": 1,
+      "Security Architecture": 1,
+      "Authentication and Access Control": 1
+    }
+  }
+}
