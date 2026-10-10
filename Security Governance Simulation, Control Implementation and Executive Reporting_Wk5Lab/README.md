@@ -9,7 +9,7 @@ This repository contains an isolated Docker-based security governance simulation
 
 Official lab instructions: https://github.com/icdfa/grc-engineering-labs/blob/master/phase1/grc102/week8/LAB_INSTRUCTIONS.md
 
-The full evidence report (`report/GRC102_Lab8_Evidence_Report_Diana_Wanjiru.docx` / submitted PDF) explains every finding in detail, including two issues disclosed openly in this README and the report: a required image substitution, and a discrepancy between the automated board/dashboard reports and the verified technical state of the environment.
+The full evidence report (`report/GRC102_Lab8_Evidence_Report_Diana_Wanjiru.pdf`) explains every finding in detail, including two issues disclosed openly in this README and the report: a required image substitution, and a discrepancy between the automated board/dashboard reports and the verified technical state of the environment.
 
 ---
 
@@ -151,6 +151,3 @@ If `patch_status.json` does not contain `"struts_patched": true` or `"network_se
 - ICDFA GRC Engineering Labs — [GRC102 Week 8 Lab Instructions](https://github.com/icdfa/grc-engineering-labs/blob/master/phase1/grc102/week8/LAB_INSTRUCTIONS.md)
 
 ---
-
-**Repository URL:** `[INSERT REPOSITORY URL HERE]`
-**Commit/branch assessed:** `[INSERT COMMIT HASH HERE]`
