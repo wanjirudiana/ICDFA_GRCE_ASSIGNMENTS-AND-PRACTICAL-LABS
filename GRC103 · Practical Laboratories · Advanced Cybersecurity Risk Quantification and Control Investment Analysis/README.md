@@ -1,4 +1,4 @@
-# Lab 3b: Advanced Cybersecurity Risk Quantification
+#  Advanced Cybersecurity Risk Quantification
 
 **Scenario:** Lead GRC analyst at *SecureBank Financial* quantifying the financial risk of the new **SecureMobile** banking platform, evaluating three security controls, and preparing an executive briefing for the CISO and CFO.
 
