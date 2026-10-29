@@ -18,7 +18,7 @@
 ├── Lab3b_Risk_Quantification.xlsx     <- all calculations as live formulas (change inputs, everything updates)
 ├── build_workbook.py                  <- generates the workbook
 ├── make_charts.py                     <- generates every chart from the workbook values
-└── images/                            <- all charts and the executive dashboard
+└── Images/                            <- all charts and the executive dashboard
 ```
 
 **Reproduce:** `python build_workbook.py` then `python make_charts.py` (needs `openpyxl`, `matplotlib`). Note: the workbook needs a recalculation pass (open it in Excel/LibreOffice) before `make_charts.py` can read the formula results.
@@ -45,7 +45,7 @@
 | Web Application Firewall (WAF) | $150,000 | $25,000 | 75% | F2 |
 | MFA Enhancement | $200,000 | $30,000 | 95% | F3 |
 
-## 2. Assumptions and decisions (please read)
+## 2. Assumptions and decisions
 
 These are judgement calls I made; each is a single editable cell in the `Inputs` sheet.
 
@@ -85,9 +85,9 @@ F3: SLE = 5,000 x $1,500                   = $7,500,000     ALE = 7,500,000   x 
 
 ### Task 3: Visualizations
 
-![ALE bar chart](images/01_ale_bar.png)
-![Risk distribution pie](images/02_risk_distribution_pie.png)
-![Risk heat map](images/03_risk_heatmap.png)
+![ALE bar chart](Images/01_ale_bar.png)
+![Risk distribution pie](Images/02_risk_distribution_pie.png)
+![Risk heat map](Images/03_risk_heatmap.png)
 
 ---
 
@@ -114,10 +114,10 @@ Worked example (WAF): Year-1 ROI = (23,437,500 - 175,000) / 175,000 = 132.93 = *
 
 ### Task 5: Control selection
 
-![Cost vs effectiveness](images/04_cost_vs_effectiveness_scatter.png)
-![ROI horizontal bar](images/05_roi_horizontal_bar.png)
-![Risk reduction over time](images/06_risk_reduction_timeline.png)
-![Cumulative net benefit](images/06b_cumulative_net_benefit.png)
+![Cost vs effectiveness](Images/04_cost_vs_effectiveness_scatter.png)
+![ROI horizontal bar](Images/05_roi_horizontal_bar.png)
+![Risk reduction over time](Images/06_risk_reduction_timeline.png)
+![Cumulative net benefit](Images/06b_cumulative_net_benefit.png)
 
 *The ROI chart uses a log scale because the three ROIs span almost three orders of magnitude.*
 
@@ -129,20 +129,20 @@ Worked example (WAF): Year-1 ROI = (23,437,500 - 175,000) / 175,000 = 132.93 = *
 
 ### Task 6: Executive dashboard
 
-![Executive dashboard](images/11_executive_dashboard.png)
+![Executive dashboard](Images/11_executive_dashboard.png)
 
 | Required visual | File |
 |---|---|
-| Exposure before/after (double bar) | `images/07_before_after_double_bar.png` |
-| Investment breakdown (stacked bar) | `images/08_investment_stacked_bar.png` |
-| ROI comparison (horizontal bar) | `images/05_roi_horizontal_bar.png` |
+| Exposure before/after (double bar) | `Images/07_before_after_double_bar.png` |
+| Investment breakdown (stacked bar) | `Images/08_investment_stacked_bar.png` |
+| ROI comparison (horizontal bar) | `Images/05_roi_horizontal_bar.png` |
 
-![Before vs after](images/07_before_after_double_bar.png)
-![Investment breakdown](images/08_investment_stacked_bar.png)
+![Before vs after](Images/07_before_after_double_bar.png)
+![Investment breakdown](Images/08_investment_stacked_bar.png)
 
 ### Task 7: Risk treatment timeline
 
-![Gantt chart](images/09_gantt_risk_treatment.png)
+![Gantt chart](Images/09_gantt_risk_treatment.png)
 
 | Horizon | Actions | Rationale |
 |---|---|---|
@@ -192,7 +192,7 @@ Worked example (WAF): Year-1 ROI = (23,437,500 - 175,000) / 175,000 = 132.93 = *
 | $405K - $804K | **WAF + MFA** (an API-Gateway-only or API+WAF mix is strictly worse) |
 | $805K or more | **All three** |
 
-![Budget frontier](images/10_bonus_budget_frontier.png)
+![Budget frontier](Images/10_bonus_budget_frontier.png)
 
 ---
 
