@@ -204,17 +204,3 @@ Worked example (WAF): Year-1 ROI = (23,437,500 - 175,000) / 175,000 = 132.93 = *
 - **Effectiveness percentages are vendor-style estimates** and are treated as certain. A sensitivity run (change `Inputs!D14:D16`) is a good next step.
 - Controls are assumed independent, and annual probabilities are held constant over the horizon.
 
-## 8. Deliverables checklist
-
-- [x] ALE for all vulnerabilities (Section 3, `Risk` sheet)
-- [x] Risk prioritization matrix (Section 3)
-- [x] Control analysis worksheet: cost-benefit and ROI (Section 4, `Controls` sheet)
-- [x] Risk exposure bar and pie charts
-- [x] Control effectiveness scatter plot
-- [x] ROI horizontal bar chart
-- [x] Risk reduction timeline (line graph)
-- [x] Investment breakdown (stacked bar)
-- [x] Risk heat map
-- [x] One-page executive dashboard
-- [x] Risk treatment plan (Gantt)
-- [x] Bonus: combined risk-control matrix and budget optimisation
