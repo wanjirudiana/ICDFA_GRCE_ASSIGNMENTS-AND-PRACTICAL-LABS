@@ -10,7 +10,7 @@ Lead-GRC-analyst exercise for **GlobalTech Inc.**: analyse three phishing simula
 | `analysis/verify_calculations.py` | Independent Python re-computation used to cross-check the workbook |
 | `analysis/make_figures.py` | Generates the charts in `figures/` |
 | `data/campaign_results.csv` | Supplied simulation results |
-| `report/` | Written executive report (export from your report document as PDF/DOCX and place here) |
+| `report/` | Written executive report |
 | `figures/` | Funnel, confidence-interval and ROI charts |
 
 ## Headline results
