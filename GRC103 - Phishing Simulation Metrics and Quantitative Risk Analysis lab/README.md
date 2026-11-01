@@ -2,6 +2,55 @@
 
 Lead-GRC-analyst exercise for **GlobalTech Inc.**: analyse three phishing simulations, quantify exposure, compare controls and brief management. Everything here is a data-analysis exercise on supplied results – no phishing emails were sent and no credentials were collected.
 
+## Scenario
+
+I am acting as the lead GRC analyst at **GlobalTech Inc.** The CISO has provided results from three phishing simulation campaigns run last quarter. The task is to analyse the data, evaluate organisational exposure, compare security control investments and prepare an evidence-based briefing for management that will inform next year's security budget and strategy.
+
+This is a data-analysis exercise on supplied simulation results. No phishing emails were sent and no credentials were collected.
+
+### Data supplied
+
+| Campaign | Lure | Target group | Sent | Opened | Clicked | Credentials submitted | Data entry |
+|---|---|---|---|---|---|---|---|
+| A | HR Bonus Notification | 100 employees | 100 | 82 | 47 | 18 | 5 |
+| B | IT System Password Reset | 250 employees | 250 | 200 | 150 | 75 | 25 |
+| C | CEO Urgent Document Review | 80 executives and assistants | 80 | 72 | 60 | 12 | 8 |
+
+**Organisational context (from the brief):**
+
+- Total employees: 2,000
+- Average salary: $85,000 per year
+- Estimated cost of a data breach: $4.35 million
+- Probability of a major breach if credentials are stolen: 25%
+
+The breach cost and the control-effectiveness percentages are treated as **scenario assumptions**, not verified industry benchmarks.
+
+## Objectives
+
+1. Calculate campaign open, click-through, credential submission and data entry rates.
+2. Calculate conversion rates using the correct denominators.
+3. Evaluate financial exposure using clearly documented assumptions.
+4. Compare control costs, estimated risk reductions and return on investment.
+5. Calculate and interpret confidence intervals.
+6. Identify errors and limitations in quantitative risk models and communicate defensible conclusions.
+
+## Deliverables
+
+- Completed calculation worksheets for Phases 1 and 2
+- Risk assessment matrix
+- Statistical analysis with confidence intervals
+- Executive briefing with financial calculations
+- Control recommendation table with ROI calculations
+- Bonus: break-even analysis for the $490,000 investment
+
+## Brief's guidance on errors
+
+Some worked examples in the brief contain calculation errors or unsupported assumptions, so every figure was independently verified. In particular:
+
+- Click-through rate is distinguished from credential submission rate.
+- Compromised accounts are not treated as independent breaches without justification.
+- Annualised loss estimates use an explicit annual occurrence assumption.
+
 ## Repository layout
 
 | Path | Purpose |
